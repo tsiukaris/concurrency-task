@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ConcurrencyTask:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ConcurrencyTask_jar</output-path>
+    <root id="archive" name="ConcurrencyTask.jar">
+      <element id="module-output" name="ConcurrencyTask" />
+    </root>
+  </artifact>
+</component>
