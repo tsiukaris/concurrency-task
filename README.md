@@ -1,10 +1,19 @@
 # Concurrency Task
 ## Getting Started
-You can either use already built artifact "concurrency-task.jar" at out/artifacts/... by running in command line
+Having installed Maven on your machine run in root directory of the project
 ```
-java -jar concurrency-task.jar
+mvn package
 ```
-Or by running Main class in your IDE
+OR
+```
+mvn install
+```
+Then you can run
+```
+mvn exec:java -Dexec.mainClass=tsiukaris.Main
+```
+to start the programm. Then follow instructions described below. 
+
 
 ## What this project does
 There are two threads to consider:
