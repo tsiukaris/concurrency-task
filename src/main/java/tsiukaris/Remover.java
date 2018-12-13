@@ -8,7 +8,7 @@ public class Remover extends Thread {
     }
 
     public void run(){
-        //wait at the beginning to have some values in the MyCollection already
+        //wait 10 seconds at the beginning to have some values in the MyCollection already
         try{
             sleep(10000);
             while(true){

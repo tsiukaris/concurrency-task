@@ -1,6 +1,6 @@
-.target
+/target
 concurrency-task.jar
 
 ### IntelliJ IDEA ###
-.idea
+/idea
 
